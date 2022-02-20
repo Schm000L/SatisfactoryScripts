@@ -1,0 +1,722 @@
+{
+    "Iron_Ore": {
+            "default": {
+                "production": 60,
+                "requirements": null,
+                "machine": "Miner",
+                "by_products": null
+            }
+    },
+    "Copper_Ore": {
+        "default": {
+            "production": 60,
+            "requirements": null,
+            "machine": "Miner"
+        }
+    },"Caterium_Ore": {
+        "default": {
+            "production": 60,
+            "requirements": null,
+            "machine": "Miner",
+            "by_products": null
+        }
+    },
+     "Coal": {
+        "default": {
+            "production": 60,
+            "requirements": null,
+            "machine": "Miner",
+            "by_products": null
+        }
+    },
+     "Raw_Quartz": {
+        "default": {
+            "production": 60,
+            "requirements": null,
+            "machine": "Miner",
+            "by_products": null
+        }
+    },
+     "Bauxite": {
+        "default": {
+            "production": 60,
+            "requirements": null,
+            "machine": "Miner",
+            "by_products": null
+        }
+    }, 
+    "Limestone": {
+        "default": {
+            "production": 60,
+            "requirements": null,
+            "machine": "Miner",
+            "by_products": null
+        }
+    },
+    "Crude_Oil": {
+        "default": {
+            "production": 120,
+            "requirements": null,
+            "machine": "Oil_Extractor",
+            "by_products": null
+        }
+    }, 
+    "Water": {
+        "default": {
+            "production": 120,
+            "requirements": null,
+            "machine": "Water_Extractor",
+            "by_products": null
+        }, 
+        "alt1": {
+            "production": 120,
+            "requirements": {
+                "Alumina_Solution": 240,
+                "Coal": 120
+            },
+            "machine": "Refinery",
+            "by_products": {
+                "Aluminium_Scrap": 360
+            }
+        }
+
+    },
+    "Iron_Ingot": {
+        "default": {
+            "production": 30,
+            "requirements": {
+                "Iron_Ore": 30
+            },
+            "machine": "Smelter",
+            "by_products": null
+        }
+    },
+    "Copper_Ingot": {
+        "default": {
+            "production": 30,
+            "requirements": {
+                "Copper_Ore": 30
+            },
+            "machine": "Smelter",
+            "by_products": null
+        }
+    },
+    "Caterium_Ingot": {
+        "default": {
+            "production": 15,
+            "requirements": {
+                "Caterium_Ore": 45
+            },
+            "machine": "Smelter",
+            "by_products": null
+        }
+    },
+    "Steel_Ingot": {
+        "default": {
+            "production": 45,
+            "requirements": {
+                "Iron_Ore": 45,
+                "Coal": 120
+            },
+            "machine": "Foundry",
+            "by_products": null
+        }, 
+        "alt1": {
+            "production": 60,
+            "requirements": {
+                "Iron_Ingot": 40,
+                "Coal": 120
+            },
+            "machine": "Foundry",
+            "by_products": null
+        }
+    },
+    "Aluminium_Ingot": {
+        "default": {
+            "production": 60,
+            "requirements": {
+                "Aluminium_Scrap": 90,
+                "Silica": 37.5
+            },
+            "machine": "Foundry",
+            "by_products": null
+        }
+    },
+    "Iron_Plate": {
+        "default": {
+            "production": 20,
+            "requirements": {
+                "Iron_Ingot": 30
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },
+    "Iron_Rod": {
+        "default": {
+            "production": 15,
+            "requirements": {
+                "Iron_Ingot": 15
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },
+    "Screw": {
+        "default": {
+            "production": 40,
+            "requirements": {
+                "Iron_Rod": 10
+            },
+            "machine": "Constructor",
+            "by_products": null
+        },
+        "alt1": {
+            "production": 50,
+            "requirements": {
+                "Iron_Ingot": 12.5
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },
+    "Copper_Sheet": {
+        "default": {
+            "production": 10,
+            "requirements": {
+                "Copper_Ingot": 20
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },
+    "Wire": {
+        "default": {
+            "production": 30,
+            "requirements": {
+                "Copper_Ingot": 15
+            },
+            "machine": "Constructor",
+            "by_products": null
+        },
+        "alt1": {
+            "production": 22.5,
+            "requirements": {
+                "Iron_Ingot": 12.5
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },
+    "Cable": {
+        "default": {
+            "production": 30,
+            "requirements": {
+                "Wire": 60
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },  
+    "Steel_Beam": {
+        "default": {
+            "production": 15,
+            "requirements": {
+                "Steel_Ingot": 60
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },  
+    "Steel_Pipe": {
+        "default": {
+            "production": 20,
+            "requirements": {
+                "Steel_Ingot": 30
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },
+    "Quickwire": {
+        "default": {
+            "production": 60,
+            "requirements": {
+                "Caterium_Ingot": 12
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },
+    "Concrete": {
+        "default": {
+            "production": 15,
+            "requirements": {
+                "Limestone": 45
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },
+    "Silica": {
+        "default": {
+            "production": 37.5,
+            "requirements": {
+                "Raw_Quartz": 22.5
+            },
+            "machine": "Constructor",
+            "by_products": null
+        },
+        "alt1": {
+            "production": 50,
+            "requirements": {
+                "Bauxite": 120,
+                "Water": 180
+            },
+            "machine": "Refinery",
+            "by_products": {
+                "Alumina_Solution": 120
+            }
+        }
+    },
+    "Quartz_Crystal": {
+        "default": {
+            "production": 22.5,
+            "requirements": {
+                "Raw_Quartz": 37.5
+            },
+            "machine": "Constructor",
+            "by_products": null
+        }
+    },
+    "Aluminium_Casing": {
+        "default": {
+            "production": 60,
+            "requirements": {
+                "Aluminium_Ingot": 90
+            },
+            "machine": "Constructor",
+            "by_products": null
+        },
+        "alt1":{
+            "production": 112.5,
+            "requirements": {
+                "Aluminium_Ingot": 150,
+                "Copper_Ingot": 75
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Reinforced_IP": {
+        "default": {
+            "production": 5,
+            "requirements": {
+                "Iron_Plate": 30,
+                "Screw": 90
+            },
+            "machine": "Assembler",
+            "by_products": null
+        },
+        "alt1": {
+            "production": 15,
+            "requirements": {
+                "Iron_Plate": 90,
+                "Screw": 250
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Modular_Frame": {
+        "default": {
+            "production": 2,
+            "requirements": {
+                "Reinforced_IP": 3,
+                "Iron_Rod": 12
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Rotor": {
+        "default": {
+            "production": 4,
+            "requirements": {
+                "Iron_Rod": 20,
+                "Screw": 100
+            },
+            "machine": "Assembler",
+            "by_products": null
+        },
+        "alt1": {
+            "production": 5,
+            "requirements": {
+                "Steel_Pipe": 10,
+                "Wire": 30
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Smart_Plating": {
+        "default": {
+            "production": 2,
+            "requirements": {
+                "Reinforced_IP": 2,
+                "Rotor": 2
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Versatile_FW": {
+        "default": {
+            "production": 5,
+            "requirements": {
+                "Modular_Frame": 2.5,
+                "Steel_Beam": 30
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Stator": {
+        "default": {
+            "production": 5,
+            "requirements": {
+                "Steel_Pipe": 15,
+                "Wire": 40
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Motor": {
+        "default": {
+            "production": 5,
+            "requirements": {
+                "Rotor": 2,
+                "Stator": 10
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Auto_Wiring": {
+        "default": {
+            "production": 2.5,
+            "requirements": {
+                "Stator": 2.5,
+                "Cable": 50
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Encased_IB": {
+        "default": {
+            "production": 6,
+            "requirements": {
+                "Steel_Beam": 24,
+                "Concrete": 30
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Circuit_Board": {
+        "default": {
+            "production": 7.5,
+            "requirements": {
+                "Copper_Sheet": 15,
+                "Plastic": 30
+            },
+            "machine": "Assembler",
+            "by_products": null
+        },
+        "alt1": {
+            "production": 12.5,
+            "requirements": {
+                "Copper_Sheet": 27.5,
+                "Silica": 27.5
+            },
+            "machine": "Assembler",
+            "by_products": null
+        },
+        "alt2": {
+            "production": 5,
+            "requirements": {
+                "Rubber": 30,
+                "Petroleum_Coke": 45
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "AI_Limiter": {
+        "default": {
+            "production": 5,
+            "requirements": {
+                "Copper_Sheet": 25,
+                "Quickwire": 100
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Alclad_Aluminium_Sheet": {
+        "default": {
+            "production": 30,
+            "requirements": {
+                "Aluminium_Ingot": 30,
+                "Copper_Ingot": 10
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Assembly_Director_System": {
+        "default": {
+            "production": 0.75,
+            "requirements": {
+                "Adaptive_Control_Unit": 1.5,
+                "Supercomputer": 0.75
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Heat_Sink": {
+        "default": {
+            "production": 7.5,
+            "requirements": {
+                "Alclad_Aluminium_Sheet": 37.5,
+                "Copper_Sheet": 22.5
+            },
+            "machine": "Assembler",
+            "by_products": null
+        }
+    },
+    "Plastic": {
+        "default": {
+            "production": 20,
+            "requirements": {
+                "Crude_Oil": 30
+            },
+            "machine": "Refinery",
+            "by_products": {
+                "Heavy_OR": 10
+            }
+        },
+        "alt1": {
+            "production": 20,
+            "requirements": {
+                "Polymer_Resin": 60,
+                "Water": 20
+            },
+            "machine": "Refinery",
+            "by_products": null
+        }
+    },
+    "Rubber": {
+        "default": {
+            "production": 20,
+            "requirements": {
+                "Crude_Oil": 30
+            },
+            "machine": "Refinery",
+            "by_products": {
+                "Heavy_OR": 20
+            }
+        },
+        "alt1": {
+            "production": 20,
+            "requirements": {
+                "Polymer_Resin": 40,
+                "Water": 40
+            },
+            "machine": "Refinery",
+            "by_products": null
+        }
+    },
+    "Heavy_OR": {
+        "default":{
+            "production": 20,
+            "requirements": {
+                "Crude_Oil": 30
+            },
+            "machine": "Refinery",
+            "by_products": {
+                "Rubber": 20
+            }
+        },
+        "alt1": {
+            "production": 10,
+            "requirements": {
+                "Crude_Oil": 30
+            },
+            "machine": "Refinery",
+            "by_products": {
+                "Plastic": 20
+            }
+        }
+    },
+    "Petroleum_Coke": {
+        "default": {
+            "production": 120,
+            "requirements": {
+                "Heavy_OR": 40
+            },
+            "machine": "Refinery",
+            "by_products": null
+        }
+    },
+    "Fuel": {
+        "default":{
+            "production": 40,
+            "requirements": {
+                "Crude_Oil": 60
+            },
+            "machine": "Refinery",
+            "by_products": {
+                "Polymer_Resin": 30
+            }
+        },
+        "alt1": {
+            "production": 40,
+            "requirements": {
+                "Heavy_OR": 60
+            },
+            "machine": "Refinery",
+            "by_products": null
+        }
+    },
+    "Alumina_Solution": {
+        "default": {
+            "production": 120,
+            "requirements": {
+                "Bauxite": 120,
+                "Water": 180
+            },
+            "machine": "Refinery",
+            "by_products": {
+                "Silica": 50
+            }
+        }
+    },
+    "Aluminium_Scrap": {
+        "default": {
+            "production": 360,
+            "requirements": {
+                "Alumina_Solution": 240,
+                "Coal": 120
+            },
+            "machine": "Refinery",
+            "by_products": {
+                "Water": 120
+            }
+        }
+    }, 
+    "Heavy_MF": {
+        "default": {
+            "production": 2,
+            "requirements": {
+                "Modular_Frame": 10,
+                "Steel_Pipe": 30,
+                "Encased_IB": 10,
+                "Screw": 200
+            },
+            "machine": "Manufacturer",
+            "by_products": null
+        }
+    },
+    "Computer": {
+        "default": {
+            "production": 2.5,
+            "requirements": {
+                "Circuit_Board": 25,
+                "Cable": 22.5,
+                "Plastic": 45,
+                "Screw": 130
+            },
+            "machine": "Manufacturer",
+            "by_products": null
+        }
+    },
+    "Modular_Engine": {
+        "default": {
+            "production": 1,
+            "requirements": {
+                "Motor": 2,
+                "Rubber": 15,
+                "Smart_Plating": 2
+            },
+            "machine": "Manufacturer",
+            "by_products": null
+        }
+    },
+    "Adaptive_Control_Unit": {
+        "default": {
+            "production": 1,
+            "requirements": {
+                "Auto_Wiring": 7.5,
+                "Circuit_Board": 5,
+                "Heavy_MF": 1,
+                "Computer": 1
+            },
+            "machine": "Manufacturer",
+            "by_products": null
+        }
+    },
+    "Crystal_Oscillator": {
+        "default": {
+            "production": 1,
+            "requirements": {
+                "Quartz_Crystal": 18,
+                "Cable": 14,
+                "Refinforced_IP": 2.5
+            },
+            "machine": "Manufacturer",
+            "by_products": null
+        }
+    },
+    "High-Speed_Connector": {
+        "default": {
+            "production": 3.75,
+            "requirements": {
+                "Quickwire": 210,
+                "Cable": 37.5,
+                "Circuit_Board": 3.75
+            },
+            "machine": "Manufacturer",
+            "by_products": null
+        }
+    },
+    "Radio_Control_Unit": {
+        "default": {
+            "production": 2.5,
+            "requirements": {
+                "Aluminium_Casing": 40,
+                "Crystal_Oscillator": 1.25,
+                "Computer": 1.25
+            },
+            "machine": "Manufacturer",
+            "by_products": null
+        }
+    },
+    "Supercomputer": {
+        "default": {
+            "production": 1.875,
+            "requirements": {
+                "Computer": 3.75,
+                "AI_Limiter": 3.75,
+                "Circuit_Board": 5.625,
+                "Plastic": 52.5
+            },
+            "machine": "Manufacturer",
+            "by_products": null
+        }
+    }
+    
+}

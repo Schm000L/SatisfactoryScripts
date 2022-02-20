@@ -1,0 +1,1 @@
+{"Screw": {"total": 40, "machine": "Constructor", "num_machines": 0.8}, "Iron_Ingot": {"total": 10.0, "machine": "Smelter", "num_machines": 0.3333333333333333, "for_Screw": 10.0}, "Iron_Ore": {"total": 10.0, "machine": "Miner", "num_machines": 0.16666666666666666, "for_Iron_Ingot": 10.0}}
