@@ -3,6 +3,8 @@
 # Set goal to whatever products you wish to produce
 # Output in out.json
 
+# Author: Samuel Johansson
+
 import json
 
 f = open ('recipes.json', "r")
