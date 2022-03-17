@@ -5,3 +5,8 @@ recipes.json contains the various recipes that can be used to produce products, 
 Expect recipes.json to be incomplete, and as new updates of the game rolls out possibly out-of-date too
 
 The result of factorycalc.py puts its result in out.json, an example is provided here in this repository.
+
+Further ideas:
+1. Handle alternative recipes, possibly lazy solution by user-provided list
+2. Calculate all production routes
+3. Implement selection algorithm to find best alternatives from 1.
